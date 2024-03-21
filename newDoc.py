@@ -1,7 +1,7 @@
 
 from pymongo.mongo_client import MongoClient
 
-client = MongoClient("mongodb://localhost:28080")
+client = MongoClient("mongodb://localhost:2")
 
 db = client["new"]
 collection = db['main']
